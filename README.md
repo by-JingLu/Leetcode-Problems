@@ -17,6 +17,6 @@ In this part, I followed [Algorithm I](https://leetcode.com/study-plan/algorithm
 ### Day4: [Two Pointers, String](/Algorithm-I/Day4-Two-Pointers.md)
 - 344 Reverse String
 - 557 Reverse Words in a String III (344 update)
-### Day5: [Two Pointers, Linked List](/Algorithm-I/Day5-Linked-List.py)
+### Day5: [Two Pointers, Linked List](/Algorithm-I/Day5-Linked-List.md)
 - 876 Middle of the Linked List
 - 17 Remove Nth Node From End of List
