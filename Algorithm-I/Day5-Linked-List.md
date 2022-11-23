@@ -4,7 +4,6 @@ Given the `head` of a singly linked list, return the middle node of the linked l
 
 If there are two middle nodes, return the second middle node.
 ### Solution
-My solution:
 ``` 
 # Definition for singly-linked list.
 # class ListNode:
@@ -31,7 +30,6 @@ class Solution:
 ### Question
 Given the head of a linked list, remove the nth node from the end of the list and return its head.
 ### Solution
-My solution:
 ``` 
 # Definition for singly-linked list.
 # class ListNode:

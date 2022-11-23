@@ -20,3 +20,18 @@ In this part, I followed [Algorithm I](https://leetcode.com/study-plan/algorithm
 ### Day5: [Two Pointers, Linked List](/Algorithm-I/Day5-Linked-List.md)
 - 876 Middle of the Linked List
 - 17 Remove Nth Node From End of List
+  
+# Step 2. Top Interview Questions - Easy Collection
+In this part, I followed [Top Interview Questions - Easy Collection](https://leetcode.com/explore/interview/card/top-interview-questions-easy/) provided by Leetcode to prepare for my interview.
+### Day1: [Array](/Top-Interview-Easy/Day1-20221123-Array.py)
+- 26 Remove Duplicates from Sorted Array
+- 283 Move Zeroes
+- 122 Best Time to Buy and Sell Stock II
+- 350 Intersection of Two Arrays II
+- 66 Plus One
+- 1 Two Sum
+- 217 Contains Duplicate
+- 136 Single Number
+- 36 Valid Sudoku
+- 189 Rotate Array
+- 48 Rotate Image

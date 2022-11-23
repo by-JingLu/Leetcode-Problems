@@ -12,13 +12,12 @@ class Graph:
         self.connection[s] += 1
         self.connection[e] += 1
 
-n = 4
-roads = [[0,1],[0,3],[1,2],[1,3]]
+n = 8
+roads = [[0,1],[1,2],[2,3],[2,4],[5,6],[5,7]]
 # Created graph 
 g = Graph(n)
 for start, end in roads:
     g.addE(start, end)
-print(g.graph, g.connection)
 
 all_results = []
 for i in range(n):
@@ -26,5 +25,5 @@ for i in range(n):
         duplicate_connection = i in g.graph[j]
         result = g.connection[i] + g.connection[j] - (1 if duplicate_connection else 0)
         all_results.append(result)
-print(all_results)
+        
 print(max(all_results))

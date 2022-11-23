@@ -29,7 +29,7 @@ class Solution:
                 
         return -1
 ```
-### Notes:
+### Notes
 - `sorted in ascending order` is keyword to use binary search method.
 
 ## 278. First Bad Version
@@ -64,7 +64,7 @@ class Solution:
             else:
                 left = mid + 1
 ```
-### Notes:
+### Notes
 - The important thing `First or not`. Therefore, when middle is BadVersion, we check `mid - 1`.
   - If `mid - 1` is good version, middle is the first BadVersion.
   - If not right index should be `mid - 1`.
@@ -102,7 +102,7 @@ class Solution:
         else:
             return mid
 ```
-### Notes:
+### Notes
 - `sorted array` is hint to use Binary Search
 - Target is not found:
   - If `target > nums[mid]`, position should be `mid + 1`.
@@ -140,6 +140,6 @@ class Solution:
         else:
             return mid
 ```
-### Notes:
+### Notes
 - Same as 35.
 - Boundary conditions are `x = 0` and `x = 1`.

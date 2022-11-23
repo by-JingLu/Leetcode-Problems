@@ -27,7 +27,7 @@ class Solution:
             
         return output
 ```
-### Notes:
+### Notes
 - Time complexity: `O(n)`  
   Space complexity: `O(n)`
 - Tow points are left and right, compare their results and decide which  one to move.
@@ -90,7 +90,7 @@ class Solution:
             start += 1
             end -= 1
 ```
-### Notes:
+### Notes
 - Very important: Real `k` need to be concerned.
 - Easiest way is creating a new list.
 - Solution 1, 2: Use `nums.pop()` and `nums.insert()`

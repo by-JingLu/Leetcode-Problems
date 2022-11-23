@@ -23,7 +23,7 @@ class Solution:
         for i in range(left, len(nums)):
             nums[i] = 0
 ```
-### Notes:
+### Notes
 - Two pointers are `left` and `right`. 
   - `right` always move 1 to iterate the array.
   - `left` to record the item not equal to zero: when right not equal to zero, assign to left and left move 1
@@ -54,7 +54,7 @@ class Solution:
             
         return left + 1
 ```
-### Notes:
+### Notes
 - Very same as 283.
 - Not `move zeros` should be `non-decreasing` to use two pointers!
 
@@ -84,7 +84,7 @@ class Solution:
         
         return output
 ```
-### Notes:
+### Notes
 - We think using two pointers to check two arrays should work at first.
 - Secondly `nums1` and `nums2` should be `sorted in non-decreasing`.
 - Then it becomes same as 283 and 26.
@@ -111,7 +111,7 @@ class Solution:
             else:
                 right -= 1
 ```
-### Notes:
+### Notes
 - The tricky is `sorted in non-decreasing`, so two pointers is the perfect way. Compare sum with target:  
   - if sum > target, max is too big, thus should not be used.  
   - if sum < target, min is too small, thus should not be used.
