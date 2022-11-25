@@ -23,7 +23,7 @@ In this part, I followed [Algorithm I](https://leetcode.com/study-plan/algorithm
   
 # Step 2. Top Interview Questions - Easy Collection
 In this part, I followed [Top Interview Questions - Easy Collection](https://leetcode.com/explore/interview/card/top-interview-questions-easy/) provided by Leetcode to prepare for my interview.
-### Day1: [Array](/Top-Interview-Easy/Day1-20221123-Array.py)
+### Day1: [Array](/Top-Interview-Easy/Day1-20221123-Array.md)
 - 26 Remove Duplicates from Sorted Array
 - 283 Move Zeroes
 - 122 Best Time to Buy and Sell Stock II
@@ -35,3 +35,26 @@ In this part, I followed [Top Interview Questions - Easy Collection](https://lee
 - 36 Valid Sudoku
 - 189 Rotate Array
 - 48 Rotate Image
+
+### Day2: [String](/Top-Interview-Easy/Day2-20221124-String.md)
+- 344 Reverse String [Solution](/Algorithm-I/Day4-Two-Pointers.md)
+- 7 Reverse Integer
+- 387 First Unique Character in a String
+- 242 Valid Anagram
+- 125 Valid Palindrome
+- 28 Find the Index of the First Occurrence in a String
+- 14 Longest Common Prefix
+- 8 String to Integer (atoi)
+
+### Day3: [Linked List](/Top-Interview-Easy/Day3-20221125-Linked-List.md)
+- 237 Delete Node in a Linked List
+- 203 Remove Linked List Elements
+- 17 Remove Nth Node From End of List [Solution](/Algorithm-I/Day5-Linked-List.md)
+- 206 Reverse Linked List
+- 21 Merge Two Sorted Lists
+- 234 Palindrome Linked List
+- Linked List Cycle
+
+### Day3: [Sorting and Searching](/Top-Interview-Easy/Day3-20221125-Sort-Search.md)
+- 88 Merge Sorted Array
+- 278 First Bad Version [Binary Search](/Algorithm-I/Day1-Binary-Search.md)
