@@ -58,3 +58,15 @@ In this part, I followed [Top Interview Questions - Easy Collection](https://lee
 ### Day3: [Sorting and Searching](/Top-Interview-Easy/Day3-20221125-Sort-Search.md)
 - 88 Merge Sorted Array
 - 278 First Bad Version [Binary Search](/Algorithm-I/Day1-Binary-Search.md)
+
+### Day4: [Dynamic Programming](/Top-Interview-Easy/Day4-20221126-Dynamic.md)
+- 70 Climbing Stairs (Recursion and DP)
+- 198 House Robber (Recursion and DP)
+- 53 Maximum Subarray (Nested-Loop and DP)
+- 121 Best Time to Buy and Sell Stock (Nested-Loop and DP)
+
+
+### Day4: [Math](/Top-Interview-Easy/Day4-20221126-Math.md)
+- 412 Fizz Buzz
+- 326 Power of Tree
+- 13 Roman to Integer
