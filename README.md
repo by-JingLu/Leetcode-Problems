@@ -70,3 +70,11 @@ In this part, I followed [Top Interview Questions - Easy Collection](https://lee
 - 412 Fizz Buzz
 - 326 Power of Tree
 - 13 Roman to Integer
+
+### Day5: [Tree](/Top-Interview-Easy/Day4-20221127-Tree.md)
+Binary Tree
+- 144 Binary Tree Preorder Traversal (root, left, right)
+- 94 Binary Tree Inorder Traversal (left, root, right)
+- 145 Binary Tree Postorder Traversal (left, right, root)
+- 102 Binary Tree Level Order Traversal (BFS)
+- 104 Maximum Depth of Binary Tree (BFS)
