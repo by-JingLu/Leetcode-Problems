@@ -78,3 +78,14 @@ Binary Tree
 - 145 Binary Tree Postorder Traversal (left, right, root)
 - 102 Binary Tree Level Order Traversal (BFS)
 - 104 Maximum Depth of Binary Tree (BFS)
+
+
+# Important Algorithm
+[Reference](https://www.youtube.com/watch?v=wy_8sINTogw)
+- Breadth First Search: shortest path
+- Depth First Search
+- Binary Search: sorted array
+- Divide and Couquer
+- Dynamic Programming
+- Greedy Algorithm
+- Sorted Algorithm
