@@ -79,6 +79,13 @@ Binary Tree
 - 102 Binary Tree Level Order Traversal (BFS)
 - 104 Maximum Depth of Binary Tree (BFS)
 
+# [Interview Question](/Interview/)
+- 1615 Maximal Network Rank - Graph, BFS
+- 75 Sort Colors- Bubble Sort
+- 509 Fibonacci Number [70 Climbing Stairs](/Top-Interview-Easy/Day4-20221126-Dynamic.md)
+  - recursion
+  - recursion + memorization
+  - dynamic programming(iteration)
 
 # Important Algorithm
 [Reference](https://www.youtube.com/watch?v=wy_8sINTogw)
