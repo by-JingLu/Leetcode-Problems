@@ -3,6 +3,9 @@
 Given the `head` of a singly linked list, return the middle node of the linked list.
 
 If there are two middle nodes, return the second middle node.
+### Notes
+- Two pointers: the fast pointer goes twice as fast as the slow pointer.
+- Why check `fast.next`? If `fast.next = None`, `fast.next.next` will cause error.
 ### Solution
 ``` 
 # Definition for singly-linked list.
@@ -21,14 +24,14 @@ class Solution:
 
         return slow
 ```
-### Notes
-- Two pointers: the fast pointer goes twice as fast as the slow pointer.
-- Why check `fast.next`? If `fast.next = None`, `fast.next.next` will cause error.
 
 
 ## 19. Remove Nth Node From End of List
 ### Question
 Given the head of a linked list, remove the nth node from the end of the list and return its head.
+### Notes
+- [Reference](https://github.com/qilinz/Leetcode-Practice/blob/main/Study-Plan/Algorithm/Algorithm-I/Day2-5-two-pointers.md)
+- Why head is modified: slow is a reference of head, not a copy of head. Thus, if slow is changed, head is affected as well. ("you are modifying a child node that the head is pointing to")
 ### Solution
 ``` 
 # Definition for singly-linked list.
@@ -62,6 +65,3 @@ class Solution:
 
         return head
 ```
-### Notes
-- [Reference](https://github.com/qilinz/Leetcode-Practice/blob/main/Study-Plan/Algorithm/Algorithm-I/Day2-5-two-pointers.md)
-- Why head is modified: slow is a reference of head, not a copy of head. Thus, if slow is changed, head is affected as well. ("you are modifying a child node that the head is pointing to")

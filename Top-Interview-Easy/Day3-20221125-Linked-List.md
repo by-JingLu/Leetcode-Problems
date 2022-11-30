@@ -1,3 +1,51 @@
+## 237 Delete Node in a Linked List
+### Notes
+- Alittle bit easy, not a typical linked list problem
+### Solution
+```
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.next = None
+
+class Solution:
+    def deleteNode(self, node):
+        """
+        :type node: ListNode
+        :rtype: void Do not return anything, modify node in-place instead.
+        """
+        node.val = node.next.val
+        node.next = node.next.next
+```
+
+## 203 Remove Linked List Elements
+### Question
+### Notes
+- 
+### Solution
+```
+```
+
+
+## 206 Reverse Linked List
+### Question
+### Notes
+- 
+### Solution
+```
+```
+
+
+## 206 Reverse Linked List
+### Question
+### Notes
+- 
+### Solution
+```
+```
+
+
 ## 206 Reverse Linked List
 ### Question
 Given the `head` of a singly linked list, reverse the list, and return the reversed list.
