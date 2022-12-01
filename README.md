@@ -70,6 +70,7 @@ In this part, I followed [Top Interview Questions - Easy Collection](https://lee
 - 412 Fizz Buzz
 - 326 Power of Tree
 - 13 Roman to Integer
+- 204 Count Primes
 
 ### Day5: [Tree](/Top-Interview-Easy/Day4-20221127-Tree.md)
 Binary Tree
