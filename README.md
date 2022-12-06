@@ -87,6 +87,7 @@ Binary Tree
   - recursion
   - recursion + memorization
   - dynamic programming(iteration)
+- 41 First Missing Positive
 
 # Important Algorithm
 [Reference](https://www.youtube.com/watch?v=wy_8sINTogw)
