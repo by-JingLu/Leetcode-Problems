@@ -82,12 +82,14 @@ Binary Tree
 
 # [Interview Question](/Interview/)
 - 1615 Maximal Network Rank - Graph, BFS
-- 75 Sort Colors- Bubble Sort
+- 75 Sort Colors - Bubble Sort
 - 509 Fibonacci Number [70 Climbing Stairs](/Top-Interview-Easy/Day4-20221126-Dynamic.md)
   - recursion
   - recursion + memorization
   - dynamic programming(iteration)
-- 41 First Missing Positive
+- 41 First Missing Positive 
+  - pay attentiont to not start with negative num or `1` such as `[5, 8, 10]`
+- 2342 Max Sum of a Pair With Equal Sum of Digits - Dictionary
 
 # Important Algorithm
 [Reference](https://www.youtube.com/watch?v=wy_8sINTogw)
