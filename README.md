@@ -64,6 +64,7 @@ In this part, I followed [Top Interview Questions - Easy Collection](https://lee
 - 198 House Robber (Recursion and DP)
 - 53 Maximum Subarray (Nested-Loop and DP)
 - 121 Best Time to Buy and Sell Stock (Nested-Loop and DP)
+- 413
 
 
 ### Day4: [Math](/Top-Interview-Easy/Day4-20221126-Math.md)
@@ -88,8 +89,11 @@ Binary Tree
   - recursion + memorization
   - dynamic programming(iteration)
 - 41 First Missing Positive 
-  - pay attentiont to not start with negative num or `1` such as `[5, 8, 10]`
+  - pay attention to cases not start with negative num or `1` such as `[5, 8, 10]`
 - 2342 Max Sum of a Pair With Equal Sum of Digits - Dictionary
+- 413 Arithmetic Slices
+  - brute force
+  - dynamic programming
 
 # Important Algorithm
 [Reference](https://www.youtube.com/watch?v=wy_8sINTogw)
