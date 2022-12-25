@@ -1,6 +1,6 @@
 ## 237 Delete Node in a Linked List
 ### Notes
-- Alittle bit easy, not a typical linked list problem
+- A little bit easy, not a typical linked list problem
 ### Solution
 ```
 # Definition for singly-linked list.
@@ -27,25 +27,6 @@ class Solution:
 ```
 ```
 
-
-## 206 Reverse Linked List
-### Question
-### Notes
-- 
-### Solution
-```
-```
-
-
-## 206 Reverse Linked List
-### Question
-### Notes
-- 
-### Solution
-```
-```
-
-
 ## 206 Reverse Linked List
 ### Question
 Given the `head` of a singly linked list, reverse the list, and return the reversed list.
@@ -57,4 +38,32 @@ Given the `head` of a singly linked list, reverse the list, and return the rever
 ```
 ```
 ```
+
+
+## 21 Merge Two Sorted Lists
+### Question
+### Notes
+- 
+### Solution
+```
+```
+
+
+## 234 Palindrome Linked List
+### Question
+### Notes
+- 
+### Solution
+```
+```
+
+## 141 Linked List Cycle
+### Question
+### Notes
+- 
+### Solution
+```
+```
+
+
 

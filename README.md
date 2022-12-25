@@ -19,7 +19,7 @@ In this part, I followed [Algorithm I](https://leetcode.com/study-plan/algorithm
 - 557 Reverse Words in a String III (344 update)
 ### Day5: [Two Pointers, Linked List](/Algorithm-I/Day5-Linked-List.md)
 - 876 Middle of the Linked List
-- 17 Remove Nth Node From End of List
+- 19 Remove Nth Node From End of List
   
 # Step 2. Top Interview Questions - Easy Collection
 In this part, I followed [Top Interview Questions - Easy Collection](https://leetcode.com/explore/interview/card/top-interview-questions-easy/) provided by Leetcode to prepare for my interview.
@@ -49,11 +49,11 @@ In this part, I followed [Top Interview Questions - Easy Collection](https://lee
 ### Day3: [Linked List](/Top-Interview-Easy/Day3-20221125-Linked-List.md)
 - 237 Delete Node in a Linked List
 - 203 Remove Linked List Elements
-- 17 Remove Nth Node From End of List [Solution](/Algorithm-I/Day5-Linked-List.md)
+- 19 Remove Nth Node From End of List [Solution](/Algorithm-I/Day5-Linked-List.md)
 - 206 Reverse Linked List
 - 21 Merge Two Sorted Lists
 - 234 Palindrome Linked List
-- Linked List Cycle
+- 141 Linked List Cycle
 
 ### Day3: [Sorting and Searching](/Top-Interview-Easy/Day3-20221125-Sort-Search.md)
 - 88 Merge Sorted Array
