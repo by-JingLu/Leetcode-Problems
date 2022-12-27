@@ -1,26 +1,12 @@
 # Leetcode-Problems Learning Map
-# Step 1. Algorithm I
-In this part, I followed [Algorithm I](https://leetcode.com/study-plan/algorithm/) in [Study Plan](https://leetcode.com/study-plan/) provided by Leetcode. I also solve some question in [Top Interview Questions](https://leetcode.com/problem-list/top-interview-questions/) as practice.
-### Day1: [Binary Search](/Algorithm-I/Day1-Binary-Search.md)
-- 704 Binary Search  
-- 278 First Bad Version  
-- 35 Search Insert Position  
-- 69 Sqrt(x)  
-### Day2: [Two Pointers, Array](/Algorithm-I/Day2-Two-Pointers.md)
-- 977 Squares of a Sorted Array
-- 189 Rotate Array
-### Day3: [Two Pointers, Array](/Algorithm-I/Day3-Two-Pointers.md)
-- 283 Move Zeroes
-- 26 Remove Duplicates from Sorted Array
-- 167 Two Sum II - Input Array Is Sorted
-- 350 Intersection of Two Arrays II
-### Day4: [Two Pointers, String](/Algorithm-I/Day4-Two-Pointers.md)
-- 344 Reverse String
-- 557 Reverse Words in a String III (344 update)
-### Day5: [Two Pointers, Linked List](/Algorithm-I/Day5-Linked-List.md)
-- 876 Middle of the Linked List
-- 19 Remove Nth Node From End of List
-  
+
+# Step 3. Neetcode - Blind 75 and Algorithms and Data Structures for Beginners
+Just record the problems do not exist before
+## [Linked List](/NeetCode/linked_list.md)
+- 2095 Delete the Middle Node of a Linked List
+- 143 Reorder List
+- 23 Merge k Sorted Lists
+
 # Step 2. Top Interview Questions - Easy Collection
 In this part, I followed [Top Interview Questions - Easy Collection](https://leetcode.com/explore/interview/card/top-interview-questions-easy/) provided by Leetcode to prepare for my interview.
 ### Day1: [Array](/Top-Interview-Easy/Day1-20221123-Array.md)
@@ -79,6 +65,29 @@ Binary Tree
 - 102 Binary Tree Level Order Traversal (BFS)
 - 104 Maximum Depth of Binary Tree (BFS)
 
+
+# Step 1. Algorithm I
+In this part, I followed [Algorithm I](https://leetcode.com/study-plan/algorithm/) in [Study Plan](https://leetcode.com/study-plan/) provided by Leetcode. I also solve some question in [Top Interview Questions](https://leetcode.com/problem-list/top-interview-questions/) as practice.
+### Day1: [Binary Search](/Algorithm-I/Day1-Binary-Search.md)
+- 704 Binary Search  
+- 278 First Bad Version  
+- 35 Search Insert Position  
+- 69 Sqrt(x)  
+### Day2: [Two Pointers, Array](/Algorithm-I/Day2-Two-Pointers.md)
+- 977 Squares of a Sorted Array
+- 189 Rotate Array
+### Day3: [Two Pointers, Array](/Algorithm-I/Day3-Two-Pointers.md)
+- 283 Move Zeroes
+- 26 Remove Duplicates from Sorted Array
+- 167 Two Sum II - Input Array Is Sorted
+- 350 Intersection of Two Arrays II
+### Day4: [Two Pointers, String](/Algorithm-I/Day4-Two-Pointers.md)
+- 344 Reverse String
+- 557 Reverse Words in a String III (344 update)
+### Day5: [Two Pointers, Linked List](/Algorithm-I/Day5-Linked-List.md)
+- 876 Middle of the Linked List
+- 19 Remove Nth Node From End of List
+  
 
 
 
