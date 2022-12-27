@@ -49,7 +49,7 @@ In this part, I followed [Top Interview Questions - Easy Collection](https://lee
 ### Day3: [Linked List](/Top-Interview-Easy/Day3-20221125-Linked-List.md)
 - 237 Delete Node in a Linked List
 - 203 Remove Linked List Elements
-- 19 Remove Nth Node From End of List [Solution](/Algorithm-I/Day5-Linked-List.md)
+- 19 Remove Nth Node From End of List
 - 206 Reverse Linked List
 - 21 Merge Two Sorted Lists
 - 234 Palindrome Linked List
@@ -64,8 +64,6 @@ In this part, I followed [Top Interview Questions - Easy Collection](https://lee
 - 198 House Robber (Recursion and DP)
 - 53 Maximum Subarray (Nested-Loop and DP)
 - 121 Best Time to Buy and Sell Stock (Nested-Loop and DP)
-- 413
-
 
 ### Day4: [Math](/Top-Interview-Easy/Day4-20221126-Math.md)
 - 412 Fizz Buzz
@@ -80,6 +78,9 @@ Binary Tree
 - 145 Binary Tree Postorder Traversal (left, right, root)
 - 102 Binary Tree Level Order Traversal (BFS)
 - 104 Maximum Depth of Binary Tree (BFS)
+
+
+
 
 # [Interview Question](/Interview/)
 - 1615 Maximal Network Rank - Graph, BFS
