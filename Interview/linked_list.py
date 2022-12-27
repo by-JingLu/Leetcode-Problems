@@ -32,11 +32,20 @@ class LinkedList:
             curr = curr.next
         print()
 
-test = LinkedList(3)
-test.insertEnd(2)
-test.insertEnd(7)
-test.insertEnd(0)
+test = LinkedList(7)
+test.insertEnd(4)
 test.insertEnd(5)
+test.insertEnd(6)
 test.iterate()
-test.remove(0)
+
+temp = test.head
+val = 7
+while temp and temp.next:
+    print(temp.val)
+    if temp.next.val == val:
+        temp.next = temp.next.next
+    else:
+        temp = temp.next
+
 test.iterate()
+
