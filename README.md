@@ -6,6 +6,12 @@ Just record the problems do not exist before
 - 2095 Delete the Middle Node of a Linked List
 - 143 Reorder List
 - 23 Merge k Sorted Lists
+## [Static Array, Dynamic Array and Stacks](/NeetCode/array.md)
+### Static Array
+- 27 Remove Element
+- 1470 Shuffle the Array
+- 15 3Sum
+- 11 Container With Most Water
 
 # Step 2. Top Interview Questions - Easy Collection
 In this part, I followed [Top Interview Questions - Easy Collection](https://leetcode.com/explore/interview/card/top-interview-questions-easy/) provided by Leetcode to prepare for my interview.
