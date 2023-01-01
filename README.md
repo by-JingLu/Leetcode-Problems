@@ -6,12 +6,22 @@ Just record the problems do not exist before
 - 2095 Delete the Middle Node of a Linked List
 - 143 Reorder List
 - 23 Merge k Sorted Lists
-## [Static Array, Dynamic Array and Stacks](/NeetCode/array.md)
-### Static Array
+## [Array and Stack](/NeetCode/array.md)
+### Array 
 - 27 Remove Element
 - 1470 Shuffle the Array
 - 15 3Sum
 - 11 Container With Most Water
+- 1929 Concatenation of Array (Two easy)
+### Stack (Use dynamic array)
+#### LIFO - Last in, First Out
+#### Operation O(1) - Push, Pop, Peek
+- 20 Valid Parentheses
+- 682 Baseball Game
+- 155 Min Stack
+
+## [Tree](/NeetCode/tree.md)
+
 
 # Step 2. Top Interview Questions - Easy Collection
 In this part, I followed [Top Interview Questions - Easy Collection](https://leetcode.com/explore/interview/card/top-interview-questions-easy/) provided by Leetcode to prepare for my interview.

@@ -129,10 +129,76 @@ class Solution:
                 j -= 1
         return ans
 ```
-## 
+
+## 20 Valid Parentheses
 ### Notes
-- 
+-  String`s` just contains the parentheses  
+-  Using Stack can achieve space O(1)
 ### Solution
 ```
-
+class Solution:
+    def isValid(self, s: str) -> bool:
+        p_stack = []
+        map = {
+            '}': '{',
+            ']': '[',
+            ')': '(',
+        }
+        for char in s:
+            if char not in map:
+                p_stack.append(char)
+                continue
+            else:
+                if len(p_stack) == 0:
+                    return False
+                else:
+                    if map[char] == p_stack[-1]:
+                        p_stack.pop()
+                    else:
+                        return False
+        return not p_stack
 ```
+
+## 682 Baseball Game
+### Notes
+-  `s.lstrip('-+').isnumeric()` or `s.lstrip('-+').isdigit()` check is `s` is an negative integer. `isnumeric()` can't figure out negative
+### Solution
+```
+class Solution:
+    def calPoints(self, operations: List[str]) -> int:
+        stack = []
+
+        for op in operations:
+            if op.lstrip('-+').isnumeric():
+                stack.append(int(op))
+            if op == 'C':
+                stack.pop()
+            if op == 'D':
+                stack.append(2 * stack[-1])
+            if op == '+':
+                stack.append(stack[-1] + stack[-2])
+
+        return sum(stack)
+```
+
+## 155 Min Stack
+### Solution
+```
+class MinStack:
+
+    def __init__(self):
+        self.stack = []
+
+    def push(self, val: int) -> None:
+        self.stack.append(val)
+
+    def pop(self) -> None:
+        self.stack.pop()
+
+    def top(self) -> int:
+        return self.stack[-1]
+
+    def getMin(self) -> int:
+        return min(self.stack)
+```
+
