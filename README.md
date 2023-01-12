@@ -1,5 +1,23 @@
 # Leetcode-Problems Learning Map
 
+# [Interview Question](/Interview/)
+- 1615 Maximal Network Rank - Graph, BFS
+- 75 Sort Colors - Bubble Sort
+- 509 Fibonacci Number [70 Climbing Stairs](/Top-Interview-Easy/Day4-20221126-Dynamic.md)
+  - recursion
+  - recursion + memorization
+  - dynamic programming(iteration)
+- 41 First Missing Positive 
+  - pay attention to cases not start with negative num or `1` such as `[5, 8, 10]`
+- 2342 Max Sum of a Pair With Equal Sum of Digits - Dictionary
+- 413 Arithmetic Slices
+  - brute force
+  - dynamic programming
+- 322 Coin Change - Dynamic Programming
+- 1004 Max Consecutive Ones III - Sliding Windows
+- 1953 Maximum Number of Weeks for Which You Can Work 
+  - Greedy Algorithm ([Reference](https://leetcode.com/problems/maximum-number-of-weeks-for-which-you-can-work/solutions/1375390/python-solution-with-detailed-explanation-proof-common-failure-analysis/?languageTags=python3))
+
 # Step 3. Neetcode - Blind 75 and Algorithms and Data Structures for Beginners
 Just record the problems do not exist before
 ## [Linked List](/NeetCode/linked_list.md)
@@ -106,20 +124,6 @@ In this part, I followed [Algorithm I](https://leetcode.com/study-plan/algorithm
   
 
 
-
-# [Interview Question](/Interview/)
-- 1615 Maximal Network Rank - Graph, BFS
-- 75 Sort Colors - Bubble Sort
-- 509 Fibonacci Number [70 Climbing Stairs](/Top-Interview-Easy/Day4-20221126-Dynamic.md)
-  - recursion
-  - recursion + memorization
-  - dynamic programming(iteration)
-- 41 First Missing Positive 
-  - pay attention to cases not start with negative num or `1` such as `[5, 8, 10]`
-- 2342 Max Sum of a Pair With Equal Sum of Digits - Dictionary
-- 413 Arithmetic Slices
-  - brute force
-  - dynamic programming
 
 # Important Algorithm
 [Reference](https://www.youtube.com/watch?v=wy_8sINTogw)
