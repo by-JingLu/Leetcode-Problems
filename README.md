@@ -1,5 +1,7 @@
 # Leetcode-Problems Learning Map
 
+# [Preparation for interviews](/Interview/prepare-2-13.md)
+
 # [Interview Question](/Interview/)
 - 1615 Maximal Network Rank - Graph, BFS
 - 75 Sort Colors - Bubble Sort
@@ -39,9 +41,9 @@ Just record the problems do not exist before
 - 155 Min Stack
 
 ## [Tree](/NeetCode/tree.md)
+- 
 
-
-# Step 2. Top Interview Questions - Easy Collection
+# Step 2. Top Interview Questions Easy Collection (Finished)
 In this part, I followed [Top Interview Questions - Easy Collection](https://leetcode.com/explore/interview/card/top-interview-questions-easy/) provided by Leetcode to prepare for my interview.
 ### Day1: [Array](/Top-Interview-Easy/Day1-20221123-Array.md)
 - 26 Remove Duplicates from Sorted Array
@@ -100,7 +102,7 @@ Binary Tree
 - 104 Maximum Depth of Binary Tree (BFS)
 
 
-# Step 1. Algorithm I
+# Step 1. Algorithm I (Finished)
 In this part, I followed [Algorithm I](https://leetcode.com/study-plan/algorithm/) in [Study Plan](https://leetcode.com/study-plan/) provided by Leetcode. I also solve some question in [Top Interview Questions](https://leetcode.com/problem-list/top-interview-questions/) as practice.
 ### Day1: [Binary Search](/Algorithm-I/Day1-Binary-Search.md)
 - 704 Binary Search  
