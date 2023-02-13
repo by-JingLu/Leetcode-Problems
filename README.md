@@ -34,8 +34,8 @@ Just record the problems do not exist before
 - 11 Container With Most Water
 - 1929 Concatenation of Array (Two easy)
 ### Stack (Use dynamic array)
-#### LIFO - Last in, First Out
-#### Operation O(1) - Push, Pop, Peek
+LIFO - Last in, First Out  
+Operation O(1) - Push, Pop, Peek  
 - 20 Valid Parentheses
 - 682 Baseball Game
 - 155 Min Stack
