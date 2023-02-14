@@ -1,3 +1,21 @@
+## 876 Middle of the Linked List
+### Notes
+- two pointer
+- condition should be desided from odd and even
+### Solution
+```
+class Solution:
+    def middleNode(self, head: Optional[ListNode]) -> Optional[ListNode]:
+        slow = head
+        fast = head
+
+        while fast and fast.next:
+            slow = slow.next
+            fast = fast.next.next
+        
+        return slow
+```
+
 ## 2095 Delete the Middle Node of a Linked List
 ### Notes
 - Use `dummy` to handle edge case
@@ -14,6 +32,23 @@ class Solution:
             fast = fast.next.next
 
         slow.next = slow.next.next
+        return dummy.next
+```
+```
+class Solution:
+    def deleteMiddle(self, head: Optional[ListNode]) -> Optional[ListNode]:
+        if not head.next:
+            return head.next
+
+        dummy = ListNode(0, head)
+        fast = dummy
+        slow = dummy
+        while fast.next and fast.next.next:
+            slow = slow.next
+            fast = fast.next.next
+        
+        slow.next = slow.next.next
+
         return dummy.next
 ```
 
