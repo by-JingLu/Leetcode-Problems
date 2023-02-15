@@ -9,13 +9,13 @@
   - recursion
   - recursion + memorization
   - dynamic programming(iteration)
-- 41 First Missing Positive 
-  - pay attention to cases not start with negative num or `1` such as `[5, 8, 10]`
-- 2342 Max Sum of a Pair With Equal Sum of Digits - Dictionary
 - 413 Arithmetic Slices
   - brute force
   - dynamic programming
 - 322 Coin Change - Dynamic Programming
+- 41 First Missing Positive 
+  - pay attention to cases not start with negative num or `1` such as `[5, 8, 10]`
+- 2342 Max Sum of a Pair With Equal Sum of Digits - Dictionary
 - 1004 Max Consecutive Ones III - Sliding Windows
 - 1953 Maximum Number of Weeks for Which You Can Work 
   - Greedy Algorithm ([Reference](https://leetcode.com/problems/maximum-number-of-weeks-for-which-you-can-work/solutions/1375390/python-solution-with-detailed-explanation-proof-common-failure-analysis/?languageTags=python3))

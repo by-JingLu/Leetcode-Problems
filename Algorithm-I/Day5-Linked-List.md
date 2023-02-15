@@ -41,27 +41,28 @@ Given the head of a linked list, remove the nth node from the end of the list an
 #         self.next = next
 class Solution:
     def removeNthFromEnd(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
-        slow = head
-        fast = head
-
-        # make fast is n ahead of slow
+        cur = head
         for _ in range(n):
-            fast = fast.next
+            cur = cur.next
 
-        # Hold exception:
-        # if fast is none, it means fast reach "the next of the last node". 
-        # This means n = the length of the linked list. 
-        # n^th node from the end is the first node of the linked list.
-        if fast is None:
+        # edge case
+        if cur == None:
             return head.next
 
-        # make the fast goes to the end
-        # then the slow will be one node before the target node
-        while fast.next is not None:
-            fast = fast.next
+        # slow pointer
+        slow = head
+        while cur.next != None:
+            cur = cur.next
             slow = slow.next
-
+            
+        
         slow.next = slow.next.next
 
         return head
+'''
+1  2 3 4 5 n=2
+cur  1 -> 2 -> 3 -> 4 -> 5 -> None
+slow 1 -> 2 -> 3 ->   -> 5
+
+'''
 ```
