@@ -21,20 +21,24 @@ class Solution:
         # recursion case
         return self.climbStairs(n - 1) + self.climbStairs(n - 2)
 ```
-Recursion + Memorization
+Recursion + Memorization: Top-end dp 
 ```
 class Solution:
-    # Recursion
     def __init__(self):
-        # Basic case dict
-        self.ways_dict = {1:1, 2:2}
+        # basic case
+        self.cache = {
+            1: 1,
+            2: 2,
+        }
+        
     def climbStairs(self, n: int) -> int:
-        # Recursion case
-        if n not in self.ways_dict:
-            self.ways_dict[n] = self.climbStairs(n - 1) + self.climbStairs(n - 2)
-        return self.ways_dict[n]
+        if n in self.cache:
+            return self.cache[n]
+        else:
+            self.cache[n] = self.climbStairs(n-1) + self.climbStairs(n-2)
+            return self.cache[n]
 ```
-Iteration
+Iteration, dp
 ```
 class Solution:
     def climbStairs(self, n: int) -> int:
@@ -42,16 +46,17 @@ class Solution:
             return 1
         if n == 2:
             return 2
+        
+        dp = [1, 2]
+        i = 3
+        while i <= n:
+            temp = dp[1]
+            # calculate n=3 and save, just need n=2
+            dp[1] = dp[0] + dp[1]
+            dp[0] = temp
+            i += 1
 
-        prev = 2
-        before_prev = 1
-        ans = 0
-        for i in range(3, n + 1):
-            ans = prev + before_prev
-            before_prev = prev
-            prev = ans   
-
-        return ans
+        return dp[1]
 ```
 
 ## 198 House Robber
@@ -60,20 +65,6 @@ class Solution:
 - Recursion: Time Limit Exceeded. 
 - Dynamic Program: focus on the definition of dp, previous n shop's money, so should use `n+1` `i-1`
 ### Solution
-Dynamic Programming
-```
-class Solution():
-    def rob(self, nums: List[int]) -> int:
-        n = len(nums)
-        dp = [0] * (n + 1)
-        dp[0] = 0
-        dp[1] = nums[0]
-
-        for i in range (2, n + 1):
-            dp[i] = max(dp[i - 2] + nums[i - 1], dp[i - 1])
-
-        return max(dp)
-```
 Recursion
 ```
 class Solution:
@@ -88,6 +79,18 @@ class Solution:
 
         # Recursion case
         return max(self.rob(nums[:n-1]), self.rob(nums[:n-2]) + nums[-1])
+```
+Dynamic Programming
+```
+class Solution():
+    def rob(self, nums: List[int]) -> int:
+        rob1, rob2 = 0, 0
+        # [rob1, rob2, n, n+1, ...]
+        for n in nums:
+            temp = max(n + rob1, rob2)
+            rob1 = rob2
+            rob2 = temp
+        return rob2
 ```
 
 

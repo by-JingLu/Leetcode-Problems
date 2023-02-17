@@ -47,7 +47,7 @@ class Solution3:
         diff = nums[1] - nums[0] 
         
         # record how many diff with same value, 
-        # e.g. 1,2,3 -> there are 2 diff with same value "1"
+        # e.g. 1,2,3 -> there are 2 diff with same value "1"cs
         count = 1 
         
         for i in range(2, n):

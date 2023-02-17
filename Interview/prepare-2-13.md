@@ -24,7 +24,7 @@
 - can't use `set` because elements can duplicate which is not accepted by set
 #### 66 Plus one (Not Recursion)
 - list -> string -> int -> plus one -> string -> list
-- recursion: basic case, recusive case
+
 #### 36 Valid Sudoku
 - Clarify the `stride = 3`
 - Time complexity: go through the board 3 times, if `board=n`, the time comlexity O(3n) -> O(n)
@@ -82,7 +82,7 @@
 - fast pointer reached th last node of the linked-list, the slow pointer is the node before the node should be moved
 #### 2095 Delete the Middle Node of a Linked List
 - we need to stop the node before the middle node to remove it
-- so we use `dummy` and change the condition
+- so we use `dummy` to make slow pointer stop in previous node
 #### 21 Merge Two Sorted Lists
 - use `dummy` and `tail`
 - whitch node is small, point to it and update it
@@ -125,7 +125,7 @@
 - don't just focus on the binary search, find out the other way
 - solution1: from left to right and from right to left go through the array separatly. O(2n) -> O(n)
 
-# Sorting and Searching
+# Sorting
 #### 75 Sort Colors
 - solution1: go through the array, save the count of each num, then loop through again to change the array time: O(2n), space: O(1)
 - solution2: [bubble sort O(n<sup>2</sup>)](/Interview/75-bubblesort.py)
@@ -135,8 +135,29 @@
 - use two pointer: if the problem change to `nums1=[1,2,3]` `nums2=[1,2,5]` and merge them, it is much easier.
 - based on that, we just need to shift the pointers from end to start and add a new pointer states the index of final array
 
-# Dynamic Programming and Recursion
+# Recursion
+1. find the basic case
+2. recall self-function 
+#### [Write a factorial function iteractive and recursive](/Interview/recursion.py)
+#### 66 Plus one (Recursion)
+- write the basic case (also as the stop sign): less than 9 or first num in list is 9
+- write recursive case: `result of this step + call self-function to smaller problem`
+#### 509 Fibonacci Number (Recursion)
+- basic case: 0, 1
+- recursive case: `self.fib(n-1) + self.fib(n-2)`
+#### 70 Climbing Stairs (Recursion)
+- basic case: `n==1` -> `1`, `n==2` -> 2
+- recursive case: `self.climbStairs(n-1) + self.climbStairs(n-2)`
+#### 198 House Robber (Recursion)
+- basic case: `n==0` -> `0`, `n==1` -> nums[0]
+- recursive case: `max(nums[0] + self.rob(nums[2:]), self.rob(nums[1:]))`
 
+
+# Dynamic Programming
+#### 509 Fibonacci Number (DP)
+#### 70 Climbing Stairs (DP)
+#### 198 House Robber (DP)
+#### 322 Coin Change
 
 # Tree
 
