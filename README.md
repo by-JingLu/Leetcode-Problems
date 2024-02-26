@@ -21,7 +21,6 @@
   - Greedy Algorithm ([Reference](https://leetcode.com/problems/maximum-number-of-weeks-for-which-you-can-work/solutions/1375390/python-solution-with-detailed-explanation-proof-common-failure-analysis/?languageTags=python3))
 
 # Step 3. Neetcode - Blind 75 and Algorithms and Data Structures for Beginners
-Just record the problems do not exist before
 ## [Linked List](/NeetCode/linked_list.md)
 - 876 Middle of the Linked List
 - 2095 Delete the Middle Node of a Linked List
@@ -40,7 +39,7 @@ Operation O(1) - Push, Pop, Peek
 - 20 Valid Parentheses
 - 682 Baseball Game
 - 155 Min Stack
-### [Sliding Window](/NeetCode/sliding_window.md)
+## [Sliding Window](/NeetCode/sliding_window.md)
 - 3 Longest Substring Without Repeating Characters
 
 ## [Tree](/NeetCode/tree.md)
